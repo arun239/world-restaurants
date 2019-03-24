@@ -20,10 +20,18 @@ World Restaurants
 
 ### USAGE:
 
-To build the project; use this command inside main directory
+To build the backend project; use this command inside main directory (after creating the DataBase)
 > mvn clean install
 
-To Run the project; use this command inside main directory
+To Build and Run FrontEnd Client
+> npm install
+> npm run-script build
+> npm start  (For Dev build and run with HotCode Reloading.)
+
+:  Access FrontEnd Client at :
+> http://localhost:8081/
+
+To Run the BackEnd project; use this command inside main directory
 > mvn spring-boot:run -Dspring.config.location=src/main/resources/ -Duser.timezone=GMT
 
 To Access the SwaggerAPI documentation :
